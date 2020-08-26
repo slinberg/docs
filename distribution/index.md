@@ -12,7 +12,7 @@ app generators, hypermedia client...) and is shipped with a nice **[Docker](http
 
 The easiest and most powerful way to get started is to download the API Platform distribution. It contains:
 
-* an API skeleton, including with [the server-side component](../core/index.md), [the Symfony 4
+* an API skeleton, including [the server-side component](../core/index.md), [the Symfony 4
   microframework](https://symfony.com/doc/current/setup/flex.html) and [the Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) (optional)
 * [a dynamic JavaScript admin](../admin/), leveraging the hypermedia capabilities of API Platform (or any Hydra API), built on top of [React Admin](https://marmelab.com/react-admin/)
 * [a client generator](../client-generator/) to scaffold [React](https://reactjs.org), [Vue](https://vuejs.org/), [React Native](https://facebook.github.io/react-native/), [Next.js](https://nextjs.org/), [Quasar](https://quasar.dev/) and [Vuetify](https://vuetifyjs.com/) apps in one command, from any Hydra API
