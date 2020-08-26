@@ -12,7 +12,7 @@ app generators, hypermedia client...) and is shipped with a nice **[Docker](http
 
 The easiest and most powerful way to get started is to download the API Platform distribution. It contains:
 
-* an API skeleton, including with [the server-side component](../core/index.md), [the Symfony 4
+* an API skeleton, including [the server-side component](../core/index.md), [the Symfony 4
   microframework](https://symfony.com/doc/current/setup/flex.html) and [the Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) (optional)
 * [a dynamic JavaScript admin](../admin/), leveraging the hypermedia capabilities of API Platform (or any Hydra API), built on top of [React Admin](https://marmelab.com/react-admin/)
 * [a client generator](../client-generator/) to scaffold [React](https://reactjs.org), [Vue](https://vuejs.org/), [React Native](https://facebook.github.io/react-native/), [Next.js](https://nextjs.org/), [Quasar](https://quasar.dev/) and [Vuetify](https://vuetifyjs.com/) apps in one command, from any Hydra API
@@ -60,7 +60,7 @@ Once you have extracted its contents, the resulting directory contains the API P
 **Note**: Try to avoid using the `.zip` file, as it may cause potential [permission](https://github.com/api-platform/api-platform/issues/319#issuecomment-307037562) [issues](https://github.com/api-platform/api-platform/issues/777#issuecomment-412515342).
 
 API Platform is shipped with a [Docker](https://docker.com) setup that makes it easy to get a containerized development
-environment up and running. If you do not already have Docker on your computer, [it's the right time to install it](https://docs.docker.com/install/).
+environment up and running. If you do not already have Docker on your computer, it's the right time to [install it](https://docs.docker.com/install/).
 
 On Mac, only [Docker for Mac](https://docs.docker.com/docker-for-mac/) is supported.
 Similarly, on Windows, only [Docker for Windows](https://docs.docker.com/docker-for-windows/) is supported. Docker Machine **is not** supported out of the box.
